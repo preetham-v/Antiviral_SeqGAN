@@ -14,6 +14,8 @@ python gan_generate.py
 
 This will generate an output.txt file which lists the sequences. To modify the number of output sequences, or to change the model, open the code and scroll below to change the parameters.
 
+![Location of params in gan.py](./params_location/params_gan.png)
+
 To train your own model, first set your parameters by opening the ‘gan.py’ file and scrolling below to the list of parameters. Make any desired changes, including the name of the model.pth file you wish to save. Then, simply run:
 
 python gan.py
